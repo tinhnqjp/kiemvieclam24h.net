@@ -77,7 +77,10 @@ $table_prefix  = 'wpxf_';
  *
  * @link https://codex.wordpress.org/Debugging_in_WordPress
  */
-define('WP_DEBUG', false);
+define('WP_DEBUG', TRUE);
+
+const JETPACK_DEV_DEBUG = TRUE;
+
 
 /* That's all, stop editing! Happy blogging. */
 

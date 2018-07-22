@@ -1,0 +1,120 @@
+<table class="bordered" width="100%" border=1 style='border:1px solid #eee' cellspacing="0" cellpadding="0">
+    <thead>
+		<tr style="background-color: #a8300c; color:#ffffff">
+			<th style="padding: 10px;">SAMSUNG</th>
+			<th style="padding: 10px;" align="center" width="150" >コメント</th>
+			<th style="padding: 10px;" align="center" width="69">買取価格</th>
+		</tr>
+    </thead>
+    <tbody>
+		<tr>
+			<td style="padding: 10px;">
+				<span style="font-size: 16px;">
+					<strong>Galaxy S9+ SCV39 SIMロック解除済み</strong>
+				</span>
+			</td>
+			<td style="padding: 10px;">台数限定 
+				<span style="font-size: 18px;">○</span> 予約必要
+			</td>
+			<td style="padding: 10px;">
+				<strong style="font-size: 16px;">
+					<span style="color: #ff0000;">￥77,000</span>
+				</strong>
+			</td>
+		</tr>
+		<tr>
+			<td style="padding: 10px;">
+				<span style="font-size: 16px;">
+					<strong>Galaxy S9 SCV38 SIMロック解除済み</strong>
+				</span>
+			</td>
+			<td style="padding: 10px;">台数限定 
+				<span style="font-size: 18px;">○</span> 予約必要
+			</td>
+			<td style="padding: 10px;">
+				<strong style="font-size: 16px;">
+					<span style="color: #ff0000;">￥62,000</span>
+				</strong>
+			</td>
+		</tr>
+		<tr>
+			<td style="padding: 10px;">
+				<span style="font-size: 16px;">
+					<b>GALAXY NOTE8 SCV37</b>
+				</span>
+				<span style="font-size: 16px;">
+					<b>SIMロック解除済み</b>
+				</span>
+			</td>
+			<td style="padding: 10px;">
+                台数限定 全色
+				<span style="font-size: 18px;">○</span> 予約必要
+			</td>
+			<td style="padding: 10px;">
+				<span style="font-size: 16px;">
+					<strong>
+						<span style="color: #ff0000;">￥70,000</span>
+					</strong>
+				</span>
+			</td>
+		</tr>
+		<tr>
+			<td style="padding: 10px;">
+				<span style="font-size: 16px;">
+					<b>GALAXY S8+ SCV35</b>
+				</span>
+				<span style="font-size: 16px;">
+					<b>SIMロック解除済み</b>
+				</span>
+			</td>
+			<td style="padding: 10px;">△減額なし</td>
+			<td style="padding: 10px;">
+				<span style="font-size: 16px;">
+					<strong>
+						<span style="color: #ff0000;">￥58,000</span>
+					</strong>
+				</span>
+			</td>
+		</tr>
+		<tr>
+			<td style="padding: 10px;">
+				<span style="font-size: 16px;">
+					<b>GALAXY S8 SCV36</b>
+				</span>
+				<span style="font-size: 16px;">
+					<b>SIMロック解除済み</b>
+				</span>
+			</td>
+			<td style="padding: 10px;">△減額なし</td>
+			<td style="padding: 10px;">
+				<span style="font-size: 16px;">
+					<strong>
+						<span style="color: #ff0000;">￥45,000</span>
+					</strong>
+				</span>
+			</td>
+		</tr>
+		<tr>
+			<td style="padding: 10px;">
+				<span style="font-size: 16px;">
+					<b>GALAXY S7edge SCV33</b>
+				</span>
+				<span style="font-size: 16px;">
+					<b>SIMロック解除済み</b>
+				</span>
+			</td>
+			<td style="padding: 10px;">桃－4,000円 白－4,000円</td>
+			<td style="padding: 10px;">
+				<strong style="font-size: 16px;">
+					<span style="color: #ff0000;">￥38,000</span>
+				</strong>
+			</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td ></td>
+			<td></td>
+		</tr>
+	</tbody>
+</table>
+&nbsp;
