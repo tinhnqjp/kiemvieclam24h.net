@@ -1,5 +1,10 @@
 <?php
 
+define( 'THEME_URL', get_stylesheet_directory() );
+define( 'CORE', THEME_URL . '/core' );
+
+require_once CORE . '/init.php' ;
+
 function create_post_your_post()
 {
     register_post_type(
@@ -27,8 +32,6 @@ function create_post_your_post()
     register_taxonomy_for_object_type('post_tag', 'your_post');
 }
 add_action('init', 'create_post_your_post');
-add_theme_support('post-thumbnails');
-add_image_size('single-post-thumbnail', 688, 466);
 
 function add_your_fields_meta_box()
 {
@@ -218,18 +221,6 @@ function wpb_widgets_init() {
     }
  
 add_action( 'widgets_init', 'wpb_widgets_init' );
-
-function register_my_menu() {
-    register_nav_menu('header-menu-1',__( 'Menu Header 1' ));
-    register_nav_menu('header-menu-2',__( 'Menu Header 2' ));
-    register_nav_menu('header-menu-3',__( 'Menu Header 3' ));
-    register_nav_menu('header-menu-4',__( 'Menu Header 4' ));
-
-    register_nav_menu('footer-menu-1',__( 'Menu Footer 1' ));
-    register_nav_menu('footer-menu-2',__( 'Menu Footer 2' ));
-    register_nav_menu('footer-menu-3',__( 'Menu Footer 3' ));
-}
-add_action( 'init', 'register_my_menu' );
 
 add_filter( 'genesis_search_text', 'sp_search_text' );
 function sp_search_text( $text ) {

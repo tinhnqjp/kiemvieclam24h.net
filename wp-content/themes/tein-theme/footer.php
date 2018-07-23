@@ -7,14 +7,7 @@
 							<img src="<?php echo get_bloginfo( 'template_directory' );?>/assets/img/footer-logo.png" class="img-responsive" alt="" /> 
 						</div>
 						<div class="col-md-8 co-sm-8 pull-right">
-							<?php wp_nav_menu( 
-								array( 
-									'theme_location' => 'footer-menu-1', 
-									'container' => 'false', 
-									'menu_id' => 'footer-menu-1', 
-									'menu_class' => ''
-								) 
-							); ?>
+							<?php tein_menu('footer-menu-1'); ?>
 						</div>
 					</div>
 				</div>
@@ -42,19 +35,12 @@
 						
 						<div class="col-md-3 col-sm-4">
 							<div class="footer-widget">
-							<h3 class="widgettitle widget-title">All Navigation</h3>
-							<div class="textwidget">
+								<h3 class="widgettitle widget-title">All Navigation</h3>
 								<div class="textwidget">
-								<?php wp_nav_menu( 
-									array( 
-										'theme_location' => 'footer-menu-2', 
-										'container' => 'false', 
-										'menu_id' => 'footer-menu-2', 
-										'menu_class' => 'footer-navigation'
-									) 
-								); ?>
-							</div>
-							</div>
+									<div class="textwidget">
+										<?php tein_menu('footer-menu-2', 'footer-navigation'); ?>
+									</div>
+								</div>
 							</div>
 						</div>
 						
@@ -62,14 +48,7 @@
 							<div class="footer-widget">
 							<h3 class="widgettitle widget-title">All Categories</h3>
 							<div class="textwidget">
-								<?php wp_nav_menu( 
-									array( 
-										'theme_location' => 'footer-menu-3', 
-										'container' => 'false', 
-										'menu_id' => 'footer-menu-3', 
-										'menu_class' => 'footer-navigation'
-									) 
-								); ?>
+								<?php tein_menu('footer-menu-3', 'footer-navigation'); ?>
 							</div>
 							</div>
 						</div>

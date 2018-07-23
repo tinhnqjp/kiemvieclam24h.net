@@ -11,6 +11,8 @@
  *
  * @var bool
  */
+ini_set('zlib.output_compression', '1'); 
+
 define('WP_USE_THEMES', true);
 
 /** Loads the WordPress Environment and Template */

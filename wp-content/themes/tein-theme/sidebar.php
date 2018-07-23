@@ -30,53 +30,25 @@
                                 <div class="col-menu col-md-3">
                                     <h6 class="title">Main Pages</h6>
                                     <div class="content">
-                                    <?php wp_nav_menu( 
-                                        array( 
-                                            'theme_location' => 'header-menu-1', 
-                                            'container' => 'false', 
-                                            'menu_id' => 'header-menu-1', 
-                                            'menu_class' => 'menu-col'
-                                        ) 
-                                    ); ?>
+                                        <?php tein_menu('header-menu-1', 'menu-col'); ?>
                                     </div>
                                 </div><!-- end col-3 -->
                                 <div class="col-menu col-md-3">
                                     <h6 class="title">For Candidate</h6>
                                     <div class="content">
-                                        <?php wp_nav_menu( 
-                                            array( 
-                                                'theme_location' => 'header-menu-2', 
-                                                'container' => 'false', 
-                                                'menu_id' => 'header-menu-2', 
-                                                'menu_class' => 'menu-col'
-                                            ) 
-                                        ); ?>
+                                        <?php tein_menu('header-menu-2', 'menu-col'); ?>
                                     </div>
                                 </div><!-- end col-3 -->
                                 <div class="col-menu col-md-3">
                                     <h6 class="title">For Employee</h6>
                                     <div class="content">
-                                        <?php wp_nav_menu( 
-                                            array( 
-                                                'theme_location' => 'header-menu-3', 
-                                                'container' => 'false', 
-                                                'menu_id' => 'header-menu-3', 
-                                                'menu_class' => 'menu-col'
-                                            ) 
-                                        ); ?>
+                                        <?php tein_menu('header-menu-3', 'menu-col'); ?>
                                     </div>
                                 </div>    
                                 <div class="col-menu col-md-3">
                                     <h6 class="title">Extra Pages</h6>
                                     <div class="content">
-                                        <?php wp_nav_menu( 
-                                            array( 
-                                                'theme_location' => 'header-menu-4', 
-                                                'container' => 'false', 
-                                                'menu_id' => 'header-menu-4', 
-                                                'menu_class' => 'menu-col'
-                                            ) 
-                                        ); ?>
+                                        <?php tein_menu('header-menu-4', 'menu-col'); ?>
                                     </div>
                                 </div><!-- end col-3 -->
                             </div><!-- end row -->
