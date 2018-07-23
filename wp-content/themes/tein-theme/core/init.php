@@ -100,6 +100,11 @@ function tein_theme_plugin_activation() {
             'slug'      => 'contact-form-7', // Tên slug của plugin trên URL
             'required'  => false,
         ),
+        array(
+            'name'      => 'WP Job Manager',
+            'slug'      => 'wp-job-manager',
+            'required'  => false,
+        ),
     ); // end $plugins
 
     $config = array(
